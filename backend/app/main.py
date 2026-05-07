@@ -1,6 +1,11 @@
-def main():
-    print("Hello from backend!")
+from fastapi import FastAPI
+
+app = FastAPI(
+    title="FaceWatch - Face Detection API",
+    version="1.0.0",
+)
 
 
-if __name__ == "__main__":
-    main()
+@app.get("/health")
+async def health_check():
+    return {"status": "ok"}
