@@ -6,7 +6,12 @@ class Settings(BaseSettings):
     )
 
     debug: bool = True
+
     database_url: str
+    sync_database_url: str
+
+    frontend_url: str = "http://localhost:5173"
+
     api_prefix: str = "/api"
 
 
