@@ -4,6 +4,10 @@ Real-time face detection and ROI (Region of Interest) streaming platform built w
 
 FaceWatch captures live webcam frames from the browser, streams them to a FastAPI backend over WebSockets, performs face detection in real-time, stores ROI metadata in PostgreSQL, draws bounding boxes without OpenCV, and streams processed frames back to the frontend.
 
+# Demo
+
+https://github.com/user-attachments/assets/f902b220-67b0-48ce-ba13-2601e12607fa
+
 # Features
 
 - Real-time webcam streaming
